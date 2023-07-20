@@ -44,3 +44,4 @@ print(choices)
 answer = solution(survey, choices)
 print(answer)
 
+#테스트
