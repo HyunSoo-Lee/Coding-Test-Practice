@@ -43,5 +43,3 @@ choices = [5, 3, 2, 7, 5]
 print(choices)
 answer = solution(survey, choices)
 print(answer)
-
-#테스트
