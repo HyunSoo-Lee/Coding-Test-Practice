@@ -23,6 +23,6 @@ new_id = new_id[:15]
 # 제거 후 (.)가 처음이나 끝에 위치한다면 제거
 new_id = new_id.strip('.')
 
-# 7단계 new_id의 길이가 2자 이하라면, new_id의 마지막 문자를 new_id의 길이가 3이 될 때까지 반복해서 끝에 붙입니다.
+# 7. 마지막 문자를 new_id의 길이가 3이 될 때까지 붙임.
 while len(new_id) < 3:
     new_id += new_id[-1]
